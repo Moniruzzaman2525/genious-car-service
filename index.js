@@ -117,7 +117,10 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Hello');
 });
+app.get('/hero', (req, res) => {
+    res.send('Hero meets hero ku')
+})
 
 app.listen(port, () => {
-    console.log('LIstening To Port', port);
+    console.log('LIstening To Port Port Port Port Port', port);
 })
